@@ -31,6 +31,12 @@ p {
   text-justify: inter-word;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
 /* Header Section */
 header {
   background-color: #4eff00;
@@ -89,7 +95,9 @@ nav a {
   margin: 0 auto 20px;
 }
 
-.service {
+.service,
+.gallery,
+.gallery2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -104,4 +112,67 @@ nav a {
 #commercial-service {
   background-color: #ef0f4a;
   padding: 50px;
+}
+
+/* Gallery */
+#gallery {
+  background-color: #259cdd;
+}
+
+.gallery {
+  gap: 50px;
+  padding: 50px;
+}
+#gallery2 {
+  background-color: white;
+}
+
+.gallery2 {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  padding: 50px;
+}
+
+/* Footer */
+footer {
+  background-color: #ebf2f0;
+  padding: 20px 50px;
+}
+
+#footerImg {
+  width: 30%;
+}
+
+#contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+#footer-title {
+  font-size: 40px;
+}
+
+.qrSocial {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#qr {
+  width: 150px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+#fb {
+  width: 50px;
+}
+
+#insta {
+  width: 65px;
 }
