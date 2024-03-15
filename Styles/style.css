@@ -37,6 +37,10 @@ a {
   font-size: 20px;
 }
 
+.hide-lg {
+  display: none;
+}
+
 /* Header Section */
 header {
   background-color: #4eff00;
@@ -212,7 +216,7 @@ footer {
 
 @media screen and (max-width: 600px) {
   h1 {
-    font-size: 50px;
+    font-size: 60px;
     margin-bottom: 15px;
   }
 
@@ -222,6 +226,14 @@ footer {
 
   a {
     font-size: 16px;
+  }
+
+  .hide-sm {
+    display: none;
+  }
+
+  .hide-lg {
+    display: inline;
   }
 
   /* Header Section */
