@@ -1,6 +1,7 @@
 /* Google font */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+
 /* Default styles */
 * {
   margin: 0;
@@ -67,6 +68,7 @@ nav a {
   margin-left: 30px;
   font-size: 25px;
 }
+
 /* Banner section */
 #banner {
   display: grid;
@@ -186,6 +188,7 @@ footer {
     font-size: 70px;
     margin-bottom: 15px;
   }
+
   /* Header Section */
   header {
     padding: 0 30px;
