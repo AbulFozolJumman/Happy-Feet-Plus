@@ -187,6 +187,7 @@ footer {
 
 #qr {
   width: 150px;
+  margin-bottom: 15px;
 }
 
 .social {
@@ -367,6 +368,7 @@ footer {
 
   #qr {
     width: 100px;
+    margin-right: 10px;
   }
 }
 
